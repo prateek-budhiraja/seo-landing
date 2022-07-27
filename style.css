@@ -1,0 +1,98 @@
+:root {
+  --primary: #323364;
+  --secondary: #6b6dd2;
+  --gray: #758283;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+/* Nav */
+
+.navbar-container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 40px;
+  flex-wrap: wrap;
+
+}
+
+img[alt="brand-logo"] {
+  width: 80%;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  font-size: 1.1rem;
+  color: var(--gray);
+}
+
+li:first-child {
+  color: #000;
+}
+
+.button-group {
+  margin-left: auto;
+}
+
+.nav-button {
+  background-color: var(--secondary);
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+
+/* Hero section */
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  min-height: 95vh;
+  margin-left: 40px;
+}
+
+
+.banner-container .heading-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  width: 40%;
+  font-size: 4rem;
+  line-height: 110%;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.banner-container .heading-text span {
+  color: var(--secondary);
+}
+
+.description {
+  width: 32%;
+  font-size: 1rem;
+  color: var(--gray);
+}
+
+.btn {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  padding: 15px 35px;
+}
+
+img[alt="illustration"] {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
